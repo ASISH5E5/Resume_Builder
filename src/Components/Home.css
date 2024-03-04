@@ -1,0 +1,155 @@
+.header{
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    background-color: aqua;
+}
+li {
+  float: left;
+  padding:1px 15px 0px 20px;
+  list-style: none;
+  font-size: 20px;
+}
+ul{
+float:right;
+}
+.log{
+    height: 50px;
+    float: left;
+    margin: -8px 0px 0px 10px;
+}
+h2{
+    float: left;
+    margin: 20px 10px 10px 10px;
+    font-size: 30px;
+}
+.mid{
+    background-size: cover;
+    height: 740px;
+    width: auto;
+    border: 1px solid rgb(27, 6, 50);
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+  }
+  .slideshow{
+    background-size: cover;
+    height: 740px;
+    width: auto;
+  }
+  .slideshow img{
+    background-size: cover;
+    height: 740px;
+    width: auto;
+  }
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 740px;
+    animation: slide 30s linear infinite;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    float:right;
+    border-radius: 3px 0 0 3px;
+    margin: 30px 0px 0px 1530px;
+  }
+  .prev{
+    float:left;
+    border-radius: 3px 0 0 3px;
+    margin: 30px 0px 0px 50px;
+  
+
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .active {
+    background-color: #717171;
+  }
+  .boxes{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+    overflow-x: scroll;
+    margin: 50px 50px 0px 50px;
+  }
+  .box{
+    width: 300px;
+    height: 400px;
+    margin: 10px 5px 70px 5px;
+    border: 1px solid black ;
+    box-shadow: 25px 10px 15px black;
+  }
+  .box img{
+    width: 100%;
+    height: 100%;
+  }
+  .subhead{
+    float: left;
+    font-size: 50px;
+  font-weight: bold;
+  margin: 10px 50px 20px 10px;
+  }
+ p{
+    font-size: 30px;
+    margin: 30px 10px 20px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .insp{
+    height: 150px;
+    width: 80%;
+    background-color: black;
+    color: aqua;
+    border: 1px solid red;
+    margin: 100px 50px 0px 150px;
+  }
+  .prof{
+    background-color: #cdf0f0;
+    
+
+  }
+  .modern{
+    margin: 0px 0px 0px 0px;
+    background-image: url('modernbg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  .modern .subhead{
+    color: rgb(255, 255, 255);
+  }
+.about{
+    background-color: #403e3e;
+    float: left;
+    height: 400px;
+    width: 100%;
+    font-size: 30px;
+    color: aqua;
+}
+.about img{
+    height: 70px;
+    align-items: center;
+    margin: 15px 00px 0px 500px;
+}
+.about h1{
+    margin: 0px 600px 0px 00px;
+}
+.about p{
+    font-size: 20px;
+}

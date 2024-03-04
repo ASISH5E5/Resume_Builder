@@ -1,0 +1,210 @@
+
+.resume-builder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  
+  display: grid;
+  overflow-y:scroll ; 
+}
+
+.pers input{
+        width: 450px;
+        height: 40px;
+        margin: 20px 70px 20px 70px;
+        font-size: 30px;
+        border: 0px solid rgb(255, 255, 255);
+        border-bottom: 1px solid #0037ff;
+ 
+}
+.resume-builder h1{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0px 20px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.section1{
+    margin: 0px 50px -1px 50px;
+    width: 1200px;
+    background-color: aliceblue;
+    
+}
+.fimage {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    height: 80px;
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 10px;
+  }
+  .pers p{
+    font-size: 20px;
+    margin: -110px 10px -120px 70px;
+    color: rgb(32, 32, 228);
+    
+    
+  }
+
+.pers{
+    margin: 50px 50px -30px 50px;
+    background-color: aliceblue;
+    width: 1200px;
+}
+textarea{
+    height: 100px;
+    width: 1050px;
+    margin: -10px 20px 0px 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+    resize: none;
+}
+.ob{
+    text-align: left;
+    height: 10px;
+    width: 200px;
+    float: left;
+    font-size: 20px;
+    margin: -25px 0px 20px 70px ;
+}
+.exp input{
+    width: 1050px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0px 10px 50px -5px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+}
+.exp label{
+    float: left;
+    font-size: 20px;
+    margin: 0px 30px 0px 70px ;
+}
+.exp .desc{
+    float: left;
+    font-size: 20px;
+    margin: -40px 30px 20px 70px ;
+}
+
+
+.skills .del{
+    width: 50px;
+    height: 30px;
+    margin: 0px -20px 0px -70px;
+    background-color: rgb(245, 34, 34);
+}
+.skill{
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
+.skhead{
+    width: 1200px;
+    height: 70px;
+    margin: 0px 20px -10px 50px;
+    text-align: center;
+    background-color: rgb(247, 248, 255);
+}
+.skill input{
+    width: 350px;
+    height: 50px;
+    margin: 20px 70px 2px -50px;
+    font-size: 30px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    margin: 20px 20px 20px 630px ;
+    background-color: #56d8e4;
+}
+.education input{
+    width: 1050px;
+    height: 50px;
+    font-size: 40px;
+    margin: 15px 0px 30px -50px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+}
+.edu label{
+    text-align: left;
+    font-size: 20px;
+    width: 1050px;
+    margin: 0px 30px 0px 50px ;
+}
+.ach input{
+    width: 1050px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px 20px 5px -20px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+}
+.ach label{
+    float: left;
+    font-size: 20px;
+    margin: 0px 30px 10px 70px ;
+}
+.ach .job{
+    width: 1050px;
+    margin: 0px 30px 10px 5px ;
+}
+.pro input{
+    width: 1050px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0px 10px 20px -5px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+}
+.pro label{
+    float: left;
+    font-size: 20px;
+    margin: -10px 30px 10px 70px ;
+}
+
+.title label{
+    text-align: left;
+    height: 10px;
+    width: 200px;
+    float: left;
+    font-size: 20px;
+    margin: 0px 0px 20px 70px ;
+}
+.title input{
+    width: 1050px;
+    height: 50px;
+    font-size: 30px;
+    margin: 0px 0px 5px 0px;
+    border: 0px solid rgb(255, 255, 255);
+    border-bottom: 1px solid #0037ff;
+}
+.ob{
+    text-align: left;
+    height: 10px;
+    width: 200px;
+    float: left;
+    font-size: 20px;
+    margin: -25px 0px 20px 70px ;
+}
+.add{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(28, 200, 28);
+}
+.del{
+    width: 50px;
+    height: 30px;
+    margin: 0px -20px 0px -10px;
+    background-color: rgb(245, 34, 34);
+}
