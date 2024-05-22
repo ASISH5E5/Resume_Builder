@@ -1,17 +1,20 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore} from "firebase/firestore"
-
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmx5TOiwBL8_5822keJFpnQuDICwahLKE",
-  authDomain: "resume-build-7bcc0.firebaseapp.com",
-  projectId: "resume-build-7bcc0",
-  storageBucket: "resume-build-7bcc0.appspot.com",
-  messagingSenderId: "663434182871",
-  appId: "1:663434182871:web:600e41cbfe5c9ade307092"
+  apiKey: "AIzaSyC88ezXFcFXy1jL_kAvkR_NsyO4yDqPXWE",
+  authDomain: "resume-data-a98b2.firebaseapp.com",
+  databaseURL: "https://resume-data-a98b2-default-rtdb.firebaseio.com",
+  projectId: "resume-data-a98b2",
+  storageBucket: "resume-data-a98b2.appspot.com",
+  messagingSenderId: "168464673100",
+  appId: "1:168464673100:web:6c6f92f0203e26349e87e9"
 };
 
-  const app=initializeApp(firebaseConfig)
-  const db=getFirestore(app)
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
 
-  export {db};
+export { auth, db };

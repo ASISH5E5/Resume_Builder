@@ -1,17 +1,19 @@
 .resume-display{
-    width: 1200px;
+    width: 90%;
     height: auto;
     background-color: white;
     border: 7px solid rgb(116, 114, 114);
+    overflow: hidden;
 }
 .resumepage{
     background-color: black;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .dpers{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 70%;
 }
 .dpers img{
     width: 220px;
@@ -26,14 +28,14 @@
     margin: 50px 10px -30px  0px;
 }
 .dpers h3{
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(54, 68, 72);
     margin: 10px 10px -20px  0px;
 }
 .dpers p{
-    font-size: 22px;
-    margin: 30px 10px -26px  320px;
+    font-size: 15px;
+    margin: 30px 50px -26px  250px;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -41,12 +43,13 @@
 .dhead{
     height: 40px;
     width: 200px;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
     float: left;
     background-color: rgb(0, 137, 228);
     border: 1px solid rgb(125, 124, 124);
     color: rgb(255, 255, 255);
-    border-radius: 3px 15px 2px 15px;
+    border-radius: 10px 150x 2px 25px;
 }
 .dprof{
     margin: -20px 0px 0px 0px;
@@ -58,35 +61,35 @@ hr{
     width: 100%;
 }
 .dobj{
-    width: 1000px;
+    width: 90%;
     text-align: left;
     height: auto;
-    margin: 20px 0px 20px 50px;
+    margin: 10px 0px 20px 50px;
     float: left;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
 
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .dexp li{
-    font-size: 30px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     margin: 0px 0px 10px -10px;
     list-style: disc;
 }
 .dexps{
-    width: 900px;
+    width: 90%;
     text-align: justify;
     height: auto;
-    margin: 0px 50px 0px 50px;
+    margin: -10px 50px 0px 50px;
     float: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .dexps p{
-    font-size: 22px;
+    font-size: 17px;
     margin: 0px 90px 10px 10px;
-    width: 950px;
+    width: 90%;
     text-align: justify;
     float: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -123,8 +126,8 @@ hr{
     width: 300px;
     height: 30px;
     text-align: left;
-    margin: 0px 0px 0px 150px;
-    font-size: 25px;
+    margin: -20px 0px 0px 150px;
+    font-size: 20px;
     list-style: disc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -139,18 +142,18 @@ hr{
 }
 
 .dprcs li{
-    font-size: 30px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin: 0px 0px -100px -10px;
+    margin: -25px 0px -100px -10px;
     list-style: disc;
 }
 .dprcs ul{
     margin: 50px 0px -100px -10px;
 }
 .dprcs p{
-    font-size: 20px;
-    margin: 10px 90px -10px 10px;
+    font-size: 17px;
+    margin: -20px 90px -10px 10px;
     width: 950px;
     text-align: justify;
 }
@@ -167,7 +170,7 @@ hr{
 
 }
 .dachs li {
-    font-size: 30px;
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     margin: 0 0 0px -10px;
@@ -178,7 +181,7 @@ hr{
     text-align: left;
 }
 .dach p{
-    font-size: 20px;
+    font-size: 17px;
     margin: 0px 90px -10px 10px;
     width: 950px;
     text-align: justify;
